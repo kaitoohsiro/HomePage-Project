@@ -34,6 +34,10 @@ const routes = [
   {
     path: '/blog',
     component: Blog
+  },
+  {
+    path:'*',
+    redirect: '/'
   }
 ]
 
