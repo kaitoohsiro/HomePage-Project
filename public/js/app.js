@@ -16566,6 +16566,14 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   },
   template: '<App/>'
 });
+new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+  el: '#app',
+  router: _router__WEBPACK_IMPORTED_MODULE_1__["default"],
+  components: {
+    App: _App_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  template: '<App/>'
+});
 
 /***/ }),
 
@@ -16897,7 +16905,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/dachenghaidou/laravel-project/Homestead/code/kaifolio/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/dachenghaidou/laravel-project/Homestead/code/Homepage-project/resources/js/app.js */"./resources/js/app.js");
 
 
 /***/ })
