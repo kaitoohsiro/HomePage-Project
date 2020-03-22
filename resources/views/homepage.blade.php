@@ -19,3 +19,11 @@
   <div id="app"></div>
 </body>
 </html>
+
+
+<style>
+body {
+    background: url("{{asset('images/haikei.jpg')}}");
+    background-size: cover;
+}
+</style>
