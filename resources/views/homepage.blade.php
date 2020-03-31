@@ -23,7 +23,6 @@
 
 <style>
 body {
-    background: url("{{asset('images/haikei.jpg')}}");
     background-size: cover;
 }
 </style>
