@@ -79,5 +79,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 ## 環境構築手順
-1. composer install
-2. npm install
+1. cd ファイル名
+2. composer install
+3. npm install
+4. npn run watch
