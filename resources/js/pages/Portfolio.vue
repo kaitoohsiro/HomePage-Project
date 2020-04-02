@@ -24,7 +24,7 @@
                             TOMO'S PORTFOLIO
                             <div class="card_info">
                                 <p class="text--medium">by Tomoya</p>
-                                <a href="https://tomoya1997.github.io/RPG/" class="card__price text--medium">GO</a>
+                                <a href="https://tomoya1997.github.io/portfolio/" class="card__price text--medium">GO</a>
                             </div>
                         </p>
                     </div>
@@ -45,20 +45,48 @@
                 </div>
                 <div class="card">
                     <div class="card_image-container">
-                        <img class="image" src="images/KaiFolio.png" alt="RPG">
+                        <img class="image" src="images/c_m.jpg" alt="RPG">
                     </div>
                     <div class="card-content">
                         <p class="card_title text--medium">
                             Coming soon
                             <div class="card_info">
-                                <p class="text--medium"> NONAME</p>
-                                <a href="" class="card__price text--medium">GO</a>
+                                <!-- <p class="text--medium"></p> -->
+                                <!-- <a href="" class="card__price text--medium">GO</a> -->
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image-container">
+                        <img class="image" src="images/c_m.jpg" alt="RPG">
+                    </div>
+                    <div class="card-content">
+                        <p class="card_title text--medium">
+                            Coming soon
+                            <div class="card_info">
+                                <!-- <p class="text--medium"></p> -->
+                                <!-- <a href="" class="card__price text--medium">GO</a> -->
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image-container">
+                        <img class="image" src="images/c_m.jpg" alt="RPG">
+                    </div>
+                    <div class="card-content">
+                        <p class="card_title text--medium">
+                            Coming soon
+                            <div class="card_info">
+                                <!-- <p class="text--medium"></p> -->
+                                <!-- <a href="" class="card__price text--medium">GO</a> -->
                             </div>
                         </p>
                     </div>
                 </div>
             </section>
-           </main>
+        </main>
     </div>
 </template>
 
@@ -69,8 +97,7 @@
 }
 .body {
     min-height: 100vh;
-    width: 100%;
-    
+    width: 100%; 
 }
 main {
     display: grid;
@@ -78,10 +105,6 @@ main {
     grid-gap: 40px;
     padding: 60px 0;
 }
-/* .image {
-    width:1200px;
-    height:600px;
-} */
 .text--medium {
     font-family: 'Open Suns', sans-serif;
     font-size: 16px;
@@ -109,7 +132,7 @@ main {
 .card_image-container {
     width: 100%;
     padding-top: 56.25%;
-    overflow: hidden; 
+    overflow: hidden;
     position: relative;
 }
 .card_image-container img {

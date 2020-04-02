@@ -37404,7 +37404,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#portfolio[data-v-81350be2] {\n    width: 100vw;\n    min-height: 100vh;\n}\n.body[data-v-81350be2] {\n    min-height: 100vh;\n    width: 100%;\n}\nmain[data-v-81350be2] {\n    display: grid;\n    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;\n    grid-gap: 40px;\n    padding: 60px 0;\n}\n/* .image {\n    width:1200px;\n    height:600px;\n} */\n.text--medium[data-v-81350be2] {\n    font-family: 'Open Suns', sans-serif;\n    font-size: 16px;\n    line-height: 20px;\n    font-weight: 400;\n    color: #ecf0f1;\n}\n.cards[data-v-81350be2] {\n    grid-column: 2 / span 12;\n    display: grid;\n    grid-template-columns: repeat(12, minmax(auto, 60px));\n    grid-gap: 40px;\n}\n.card[data-v-81350be2] {\n    grid-column-end: span 4;\n    display: flex;\n    flex-direction: column;\n    background-color: #39393b;\n    cursor: pointer;\n    transition: all 0.3s ease 0s;\n}\n.card[data-v-81350be2]:hover {\n    transform: translateY(-7px);\n}\n.card_image-container[data-v-81350be2] {\n    width: 100%;\n    padding-top: 56.25%;\n    overflow: hidden; \n    position: relative;\n}\n.card_image-container img[data-v-81350be2] {\n    width: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n.card-content[data-v-81350be2] {\n    padding: 20px;\n}\n.card_title[data-v-81350be2] {\n    margin-bottom: 20px;\n}\n.card_info[data-v-81350be2] {\n    display: flex;\n    align-self: end;\n    align-items: center;\n}\n.card__price[data-v-81350be2] {\n    margin-left: auto;\n    padding: 5px 20px;\n    background-color: #303032;\n    border-radius: 20px;\n}\n@media only screen and (max-width: 1000px){\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n@media only screen and (max-width: 700px){\nmain[data-v-81350be2] {\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 12;\n}\n}\n@media only screen and (max-width: 500px){\nmain[data-v-81350be2] {\n        height: 100%;\n        width: 100%;\n        grid-template-columns: 10px repeat(6, 1fr) 10px;\n        grid-gap: 10px;\n        display: flex;\n        justify-content: center;\n}\n.cards[data-v-81350be2] {\n        width: 100vw;\n        grid-column: 2 / sapn 6;\n        grid-template-columns: repeat(6, 1fr);\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n", ""]);
+exports.push([module.i, "\n#portfolio[data-v-81350be2] {\n    width: 100vw;\n    min-height: 100vh;\n}\n.body[data-v-81350be2] {\n    min-height: 100vh;\n    width: 100%;\n}\nmain[data-v-81350be2] {\n    display: grid;\n    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;\n    grid-gap: 40px;\n    padding: 60px 0;\n}\n.text--medium[data-v-81350be2] {\n    font-family: 'Open Suns', sans-serif;\n    font-size: 16px;\n    line-height: 20px;\n    font-weight: 400;\n    color: #ecf0f1;\n}\n.cards[data-v-81350be2] {\n    grid-column: 2 / span 12;\n    display: grid;\n    grid-template-columns: repeat(12, minmax(auto, 60px));\n    grid-gap: 40px;\n}\n.card[data-v-81350be2] {\n    grid-column-end: span 4;\n    display: flex;\n    flex-direction: column;\n    background-color: #39393b;\n    cursor: pointer;\n    transition: all 0.3s ease 0s;\n}\n.card[data-v-81350be2]:hover {\n    transform: translateY(-7px);\n}\n.card_image-container[data-v-81350be2] {\n    width: 100%;\n    padding-top: 56.25%;\n    overflow: hidden;\n    position: relative;\n}\n.card_image-container img[data-v-81350be2] {\n    width: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n.card-content[data-v-81350be2] {\n    padding: 20px;\n}\n.card_title[data-v-81350be2] {\n    margin-bottom: 20px;\n}\n.card_info[data-v-81350be2] {\n    display: flex;\n    align-self: end;\n    align-items: center;\n}\n.card__price[data-v-81350be2] {\n    margin-left: auto;\n    padding: 5px 20px;\n    background-color: #303032;\n    border-radius: 20px;\n}\n@media only screen and (max-width: 1000px){\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n@media only screen and (max-width: 700px){\nmain[data-v-81350be2] {\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 12;\n}\n}\n@media only screen and (max-width: 500px){\nmain[data-v-81350be2] {\n        height: 100%;\n        width: 100%;\n        grid-template-columns: 10px repeat(6, 1fr) 10px;\n        grid-gap: 10px;\n        display: flex;\n        justify-content: center;\n}\n.cards[data-v-81350be2] {\n        width: 100vw;\n        grid-column: 2 / sapn 6;\n        grid-template-columns: repeat(6, 1fr);\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n", ""]);
 
 // exports
 
@@ -42174,7 +42174,7 @@ var staticRenderFns = [
                   "a",
                   {
                     staticClass: "card__price text--medium",
-                    attrs: { href: "https://tomoya1997.github.io/RPG/" }
+                    attrs: { href: "https://tomoya1997.github.io/portfolio/" }
                   },
                   [_vm._v("GO")]
                 )
@@ -42221,7 +42221,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "card_image-container" }, [
               _c("img", {
                 staticClass: "image",
-                attrs: { src: "images/KaiFolio.png", alt: "RPG" }
+                attrs: { src: "images/c_m.jpg", alt: "RPG" }
               })
             ]),
             _vm._v(" "),
@@ -42231,18 +42231,47 @@ var staticRenderFns = [
                   "\n                        Coming soon\n                        "
                 )
               ]),
-              _c("div", { staticClass: "card_info" }, [
-                _c("p", { staticClass: "text--medium" }, [_vm._v(" NONAME")]),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "card__price text--medium",
-                    attrs: { href: "" }
-                  },
-                  [_vm._v("GO")]
+              _c("div", { staticClass: "card_info" }),
+              _vm._v(" "),
+              _c("p")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card_image-container" }, [
+              _c("img", {
+                staticClass: "image",
+                attrs: { src: "images/c_m.jpg", alt: "RPG" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-content" }, [
+              _c("p", { staticClass: "card_title text--medium" }, [
+                _vm._v(
+                  "\n                        Coming soon\n                        "
                 )
               ]),
+              _c("div", { staticClass: "card_info" }),
+              _vm._v(" "),
+              _c("p")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card_image-container" }, [
+              _c("img", {
+                staticClass: "image",
+                attrs: { src: "images/c_m.jpg", alt: "RPG" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-content" }, [
+              _c("p", { staticClass: "card_title text--medium" }, [
+                _vm._v(
+                  "\n                        Coming soon\n                        "
+                )
+              ]),
+              _c("div", { staticClass: "card_info" }),
               _vm._v(" "),
               _c("p")
             ])
