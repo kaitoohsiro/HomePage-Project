@@ -47,8 +47,11 @@
     display: inline-block;
     vertical-align: middle;
     list-style: none;
+    padding-left: 7%;
 }
-
+.container {
+    margin: 0px -8px;
+}
 .nav{
     text-decoration: none;
 }
@@ -65,17 +68,6 @@
 }
 .menu-exact-active {
     color: lightgreen;
-}
-.slide-enter-active {
-    transition: all .8s ease;
-}
-.slide-leave-active {
-    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-.slide-enter, .slide-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
-    transform: translateY(10px);
-    opacity: 0;
 }
 #title_menu {
     font-weight: 600;
