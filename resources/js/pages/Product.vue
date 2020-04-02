@@ -34,5 +34,6 @@ div#product > div#title > h1 > span {
 div#product > div#title > h1{
     text-align: center;
     color: #42b883;
+	white-space: nowrap;
 }
 </style>
