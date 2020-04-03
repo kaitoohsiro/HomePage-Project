@@ -94,10 +94,16 @@
 #portfolio {
     width: 100vw;
     min-height: 100vh;
+    background-color: black;
+    background: url("../../../public/images/portfolio.jpg");
+    background-attachment: fixed;
 }
 .body {
     min-height: 100vh;
     width: 100%; 
+}
+#title {
+    color: #ecf0f1;
 }
 main {
     display: grid;

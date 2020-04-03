@@ -37399,12 +37399,13 @@ exports.push([module.i, "\n.main[data-v-c8ad8caa]{\n    max-width: 100px;\n    p
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "\n#portfolio[data-v-81350be2] {\n    width: 100vw;\n    min-height: 100vh;\n}\n.body[data-v-81350be2] {\n    min-height: 100vh;\n    width: 100%;\n}\nmain[data-v-81350be2] {\n    display: grid;\n    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;\n    grid-gap: 40px;\n    padding: 60px 0;\n}\n.text--medium[data-v-81350be2] {\n    font-family: 'Open Suns', sans-serif;\n    font-size: 16px;\n    line-height: 20px;\n    font-weight: 400;\n    color: #ecf0f1;\n}\n.cards[data-v-81350be2] {\n    grid-column: 2 / span 12;\n    display: grid;\n    grid-template-columns: repeat(12, minmax(auto, 60px));\n    grid-gap: 40px;\n}\n.card[data-v-81350be2] {\n    grid-column-end: span 4;\n    display: flex;\n    flex-direction: column;\n    background-color: #39393b;\n    cursor: pointer;\n    transition: all 0.3s ease 0s;\n}\n.card[data-v-81350be2]:hover {\n    transform: translateY(-7px);\n}\n.card_image-container[data-v-81350be2] {\n    width: 100%;\n    padding-top: 56.25%;\n    overflow: hidden;\n    position: relative;\n}\n.card_image-container img[data-v-81350be2] {\n    width: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n.card-content[data-v-81350be2] {\n    padding: 20px;\n}\n.card_title[data-v-81350be2] {\n    margin-bottom: 20px;\n}\n.card_info[data-v-81350be2] {\n    display: flex;\n    align-self: end;\n    align-items: center;\n}\n.card__price[data-v-81350be2] {\n    margin-left: auto;\n    padding: 5px 20px;\n    background-color: #303032;\n    border-radius: 20px;\n}\n@media only screen and (max-width: 1000px){\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n@media only screen and (max-width: 700px){\nmain[data-v-81350be2] {\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 12;\n}\n}\n@media only screen and (max-width: 500px){\nmain[data-v-81350be2] {\n        height: 100%;\n        width: 100%;\n        grid-template-columns: 10px repeat(6, 1fr) 10px;\n        grid-gap: 10px;\n        display: flex;\n        justify-content: center;\n}\n.cards[data-v-81350be2] {\n        width: 100vw;\n        grid-column: 2 / sapn 6;\n        grid-template-columns: repeat(6, 1fr);\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n", ""]);
+exports.push([module.i, "\n#portfolio[data-v-81350be2] {\n    width: 100vw;\n    min-height: 100vh;\n    background-color: black;\n    background: url(" + escape(__webpack_require__(/*! ../../../public/images/portfolio.jpg */ "./public/images/portfolio.jpg")) + ");\n    background-attachment: fixed;\n}\n.body[data-v-81350be2] {\n    min-height: 100vh;\n    width: 100%;\n}\n#title[data-v-81350be2] {\n    color: #ecf0f1;\n}\nmain[data-v-81350be2] {\n    display: grid;\n    grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;\n    grid-gap: 40px;\n    padding: 60px 0;\n}\n.text--medium[data-v-81350be2] {\n    font-family: 'Open Suns', sans-serif;\n    font-size: 16px;\n    line-height: 20px;\n    font-weight: 400;\n    color: #ecf0f1;\n}\n.cards[data-v-81350be2] {\n    grid-column: 2 / span 12;\n    display: grid;\n    grid-template-columns: repeat(12, minmax(auto, 60px));\n    grid-gap: 40px;\n}\n.card[data-v-81350be2] {\n    grid-column-end: span 4;\n    display: flex;\n    flex-direction: column;\n    background-color: #39393b;\n    cursor: pointer;\n    transition: all 0.3s ease 0s;\n}\n.card[data-v-81350be2]:hover {\n    transform: translateY(-7px);\n}\n.card_image-container[data-v-81350be2] {\n    width: 100%;\n    padding-top: 56.25%;\n    overflow: hidden;\n    position: relative;\n}\n.card_image-container img[data-v-81350be2] {\n    width: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n}\n.card-content[data-v-81350be2] {\n    padding: 20px;\n}\n.card_title[data-v-81350be2] {\n    margin-bottom: 20px;\n}\n.card_info[data-v-81350be2] {\n    display: flex;\n    align-self: end;\n    align-items: center;\n}\n.card__price[data-v-81350be2] {\n    margin-left: auto;\n    padding: 5px 20px;\n    background-color: #303032;\n    border-radius: 20px;\n}\n@media only screen and (max-width: 1000px){\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n@media only screen and (max-width: 700px){\nmain[data-v-81350be2] {\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 12;\n}\n}\n@media only screen and (max-width: 500px){\nmain[data-v-81350be2] {\n        height: 100%;\n        width: 100%;\n        grid-template-columns: 10px repeat(6, 1fr) 10px;\n        grid-gap: 10px;\n        display: flex;\n        justify-content: center;\n}\n.cards[data-v-81350be2] {\n        width: 100vw;\n        grid-column: 2 / sapn 6;\n        grid-template-columns: repeat(6, 1fr);\n        grid-gap: 20px;\n}\n.card[data-v-81350be2] {\n        grid-column-end: span 6;\n}\n}\n", ""]);
 
 // exports
 
@@ -37493,6 +37494,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -57388,6 +57416,17 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+
+/***/ "./public/images/portfolio.jpg":
+/*!*************************************!*\
+  !*** ./public/images/portfolio.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/portfolio.jpg?8559c24f9db5ad93897f35d891a885ea";
 
 /***/ }),
 
