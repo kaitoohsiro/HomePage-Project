@@ -48,6 +48,7 @@
     vertical-align: middle;
     list-style: none;
 }
+
 .nav{
     text-decoration: none;
 }
