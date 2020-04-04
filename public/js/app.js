@@ -197,13 +197,6 @@
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 /***/ }),
 
@@ -37344,7 +37337,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "\n.header ul[data-v-f348271a] {\n    margin-top:30px;\n    padding: 0;\n}\n.header ul li[data-v-f348271a] {\n    display: inline-block;\n    vertical-align: middle;\n    list-style: none;\n}\n.nav[data-v-f348271a]{\n    text-decoration: none;\n}\n.menu[data-v-f348271a] {\n    color: #000;\n    font-size: 14px;\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 600;\n    text-indent: 0.05em;\n    letter-spacing: 0.05em;\n}\n.sub_menu[data-v-f348271a] {\n    padding: 20px;\n}\n.menu-exact-active[data-v-f348271a] {\n    color: lightgreen;\n}\n.slide-enter-active[data-v-f348271a] {\n    transition: all .8s ease;\n}\n.slide-leave-active[data-v-f348271a] {\n    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);\n}\n.slide-enter[data-v-f348271a], .slide-leave-to[data-v-f348271a]\n/* .slide-fade-leave-active below version 2.1.8 */ {\n    transform: translateY(10px);\n    opacity: 0;\n}\n#title_menu[data-v-f348271a] {\n    font-weight: 600;\n    font-size: 20px;\n    padding-right:20px;\n}\n", ""]);
+exports.push([module.i, "\n.header ul[data-v-f348271a] {\n    margin-top:30px;\n    padding: 0;\n}\n.header ul li[data-v-f348271a] {\n    display: inline-block;\n    vertical-align: middle;\n    list-style: none;\n    padding-left: 7%;\n}\n.container[data-v-f348271a] {\n    margin: 0px -8px;\n}\n.nav[data-v-f348271a]{\n    text-decoration: none;\n}\n.menu[data-v-f348271a] {\n    color: #000;\n    font-size: 14px;\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 600;\n    text-indent: 0.05em;\n    letter-spacing: 0.05em;\n}\n.sub_menu[data-v-f348271a] {\n    padding: 20px;\n}\n.menu-exact-active[data-v-f348271a] {\n    color: lightgreen;\n}\n#title_menu[data-v-f348271a] {\n    font-weight: 600;\n    font-size: 20px;\n    padding-right:20px;\n}\n", ""]);
 
 // exports
 
