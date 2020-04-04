@@ -17,7 +17,7 @@
             <section class="cards">
                 <div class="card">
                     <div class="card_image-container">
-                        <img class="image" src="images/tomoya.png" alt="RPG">
+                        <img class="image" src="../../images/tomoya.png" alt="RPG">
                     </div>
                     <div class="card-content">
                         <p class="card_title text--medium">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="card">
                     <div class="card_image-container">
-                        <img class="image" src="images/KaiFolio.png" alt="RPG">
+                        <img class="image" src="../../images/KaiFolio.png" alt="RPG">
                     </div>
                     <div class="card-content">
                         <p class="card_title text--medium">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="card">
                     <div class="card_image-container">
-                        <img class="image" src="images/c_m.jpg" alt="RPG">
+                        <img class="image" src="../../images/c_m.jpg" alt="RPG">
                     </div>
                     <div class="card-content">
                         <p class="card_title text--medium">
@@ -59,7 +59,7 @@
                 </div>
                 <div class="card">
                     <div class="card_image-container">
-                        <img class="image" src="images/c_m.jpg" alt="RPG">
+                        <img class="image" src="../../images/c_m.jpg" alt="RPG">
                     </div>
                     <div class="card-content">
                         <p class="card_title text--medium">
@@ -73,7 +73,7 @@
                 </div>
                 <div class="card">
                     <div class="card_image-container">
-                        <img class="image" src="images/c_m.jpg" alt="RPG">
+                        <img class="image" src="../../images/c_m.jpg" alt="RPG">
                     </div>
                     <div class="card-content">
                         <p class="card_title text--medium">
@@ -95,7 +95,7 @@
     width: 100vw;
     min-height: 100vh;
     background-color: black;
-    background: url("../../../public/images/portfolio.jpg");
+    background: url("../../images/portfolio.jpg");
     background-attachment: fixed;
 }
 .body {
