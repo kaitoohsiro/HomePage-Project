@@ -15,43 +15,109 @@
                         talent
                     </span>
                 </div>
-                <div class="v_line_fix"></div>
+                <div class="scroll-dd">
+                    <div class="v_line_fix"></div>
+                </div>
             </div>
         </div>
-            <div class="common product">
-                <h1>product</h1>
-            </div>
-            <div class="common blog">
-                <h1>blog</h1>
-                </div>
-            <div class="common portfolio">
-                <h1>portfolio</h1>
-            </div>
-            <div class="common about">
-                <h1>about</h1>
-            </div>
-            <div class="footer">footer</div>
+
+        <!-- product -->
+        <div class="common">
+            <ul>
+                <li class="common_block">
+                    <div class="common_message">
+                        <h1>product</h1>
+                        <p>
+                            「アイディアを形にしたい」
+                            <br>
+                            そんな思いから結成したチーム。開発した物を見てもらえると光栄です。
+                        </p>
+                        <RouterLink class="nav" to="/product">
+                            <span class="menu sub_menu">visit</span>
+                        </RouterLink>
+                    </div>
+                </li>
+                <li class="common_block">
+                    <img src="../../images/product1.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- blog -->
+        <div class="common">
+            <ul>
+                <li class="common_block">
+                    <div class="common_message">
+                        <h1>blog</h1>
+                        <p>
+                            自分たちの記事をブログとして書いています。
+                            <br>
+                            よろしければ見ていってください。
+                        </p>
+                        <RouterLink class="nav" to="/blog">
+                            <span class="menu sub_menu">visit</span>
+                        </RouterLink>
+                    </div>
+                </li>
+                <li class="common_block">
+                    <img src="../../images/blog1.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- portfolio -->
+        <div class="common">
+            <ul>
+                <li class="common_block">
+                    <div class="common_message">
+                        <h1>portfolio</h1>
+                        <p>
+                            メンバーそれぞれのポートフォリオ
+                            <br>
+                            それをまとめています。
+                        </p>
+                        <RouterLink class="nav" to="/portfolio">
+                            <span class="menu sub_menu">visit</span>
+                        </RouterLink>
+                    </div>
+                </li>
+                <li class="common_block">
+                    <img src="../../images/portfolio1.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <!-- about -->
+        <div class="common">
+            <ul>
+                <li class="common_block">
+                    <div class="common_message">
+                        <h1>about</h1>
+                        <p>
+                            私たちの紹介です。
+                        </p>
+                        <RouterLink class="nav" to="/about">
+                            <span class="menu sub_menu">visit</span>
+                        </RouterLink>
+                    </div>
+                </li>
+                <li class="common_block">
+                    <img src="../../images/about1.jpg" alt="">
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
 <style scoped>
 /* COMMON */
 #home {
+    font-family: garamond-premier-pro-display, serif;
     background: url(../../images/home1.jpg);
+    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     z-index: 1;
     font-size: 62.5%;
 }
-.common {
-    border: 1px solid #000;
-    height: 200px;
-    z-index: 30;
-    background-color: #999;
-}
-.common:nth-child(even) {
-    background-color: #E8E8E8;
-}
+
 /* HOME */
 .home {
     width: 100%;
@@ -92,13 +158,139 @@
 }
 
 
-/* product */
+/* common */
+.common {
+    padding: 10% 8%;
+    text-align: center;
+    background-color: rgb(252, 239, 249);
+}
+.common:nth-child(even) {
+    background-color: #fff;
+}
+.common_block {
+    align-self: center;
+    margin: 2em;
+    width: 40%;
+}
+.common_block .common_message {
+    line-height: auto;
+}
+.common p {
+    font-size: 1.5vw;
+    color: gray;
+    margin: auto;
+}
+.common h1 {
+    font-size: 3vw;
+}
+.common ul {
+    padding: 0;
+    display: flex;
+}
+.common ul li {
+    list-style: none;
+}
+.common ul li img {
+    width: 161.5%;
+    flex-direction: row-reverse;
+    margin: 0;
+}
+.nav .menu {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 4% auto;
+    position: relative;
+    border: 2px solid #999;
+    transition: .4s;
+}
+
+.nav .menu:hover {
+    border: 2px solid transparent;
+    color: #999;
+    opacity: .6;
+}
+
+.nav .menu:before, .nav .menu:after {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.nav .menu:before {
+    border-bottom: 2px solid #999;
+    border-left: 2px solid #999;
+    transform-origin: 100% 0%;
+}
+
+.nav .menu:after {
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+    transform-origin: 0% 100%;
+}
+
+.nav .menu:hover:after,
+.nav .menu:hover:before {
+    transform: scale(1);
+}
 
 
-/* footer */
-footer {
-    height: 100px;
+@media screen and (max-width: 1024px) {
+    .common ul li img {
+        width: 156.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .common ul li img {
+        width: 150.5%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+        .common ul {
+    display: block;
+    }
+    .nav .menu {
+        width: 20%;
+        padding: 6px 12px;
+    }
+    .common ul li img, .common_message{
+        padding-top: 10%;
+        width: 100vw;
+    }
+    .common {
+        padding: 0;
+        background-color: #fff;
+    }
+    .common ul {
+        margin: 0;
+    }
+    .common ul li {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .v_line_fix {
+        margin-top: 70%;
+    }
 }
 </style>
 
+<script>
+export default {
+
+}
+</script>
 
