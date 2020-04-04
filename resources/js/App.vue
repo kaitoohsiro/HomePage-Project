@@ -48,9 +48,6 @@
     vertical-align: middle;
     list-style: none;
 }
-.container {
-    margin: 0;
-}
 .nav{
     text-decoration: none;
 }
