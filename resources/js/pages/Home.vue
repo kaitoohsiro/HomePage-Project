@@ -298,8 +298,8 @@
 }
 
 @media screen and (max-width: 414px) {
-        .common ul {
-    display: block;
+    .common ul {
+        display: block;
     }
     .nav .menu {
         width: 20%;
@@ -315,6 +315,13 @@
     }
     .common ul {
         margin: 0;
+    }
+    .common h1 {
+        font-size: 4vw;
+    }
+    .common p {
+        font-size: 3.5vw;
+        margin: auto 10%;
     }
     .common ul li {
         text-align: center;
