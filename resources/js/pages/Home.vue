@@ -195,27 +195,6 @@
     margin: 0% 10% 60%;
     margin-top: 40%;
 }
-.v_line_fix {
-    width: 1.3px;
-    background-color: rgb(251, 251, 249);
-    margin-top: 8%;
-    margin-left: 90%;
-    animation: loop 2s ease-in-out 0s infinite normal;
-}
-.v_line_fix p{
-    color: #fff;
-    padding:1px;
-}
-
-@keyframes loop {
-    0% {
-        height: 1px;
-    }
-    100% {
-        height: 150px;
-    }
-}
-
 
 /* common */
 .common {
