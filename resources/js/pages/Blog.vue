@@ -8,63 +8,39 @@
                 <span>g</span>
             </h1>
         </div>
-        <!-- <div class="main" v-for="title of titles" :key="title">
-                <div>
-                    <b-card
-                        title="aaa"
-                        img-src="https://picsum.photos/600/300/?image=25"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 20rem;"
-                        class="mb-2"
-                    >
-                        <b-card-text>
-                        {{ title }}
-                        </b-card-text>
-
-                        <b-button href="#" variant="primary">Go somewhere</b-button>
-                    </b-card>
-                </div>
-            </div> -->
+        <h2 id="comingSoon">Coming Soon Page</h2>
     </div>
 </template>
 
-
-
-<script>
-// import axios from 'axios'
-// export default {
-//     data () {
-//     return {
-//         titles: []
-//     }
-//     },
-//     mounted () {
-//         axios
-//             .get('https://note.com/kai123note/rss',{
-//                 timeout: 3000,
-//                 responseType: 'document'
-//             })
-//             .then(response => {
-//                 const xml = response.data
-//                 const areas = xml.getElementsByTagName('title');
-//                 for (let i = 0;  i < areas.length; i++) {
-//                 this.titles.unshift(areas[i].textContent);
-//                 }
-//                 console.log(this.titles)
-
-//         })
-//     }
-
-// }
-</script>
 <style scoped>
-.main{
-    max-width: 100px;
-    padding:0;
+#blog{
+    text-align: center;
+    background: url(../../images/blog01.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.main div{
-    display: inline-block;
+#title h1 span:nth-child(even){
+    color: transparent;
+    text-align: left;
+    -webkit-text-stroke: 2px #FFF;
+}
+#blog h1 {
+    color: #fff;
+    padding-top:30px;
+}
+#blog #comingSoon {
+    margin-top: 20%;
+    font-size: 6vw;
+    font-family: 'Pacifico';
+    color: #fff;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 375px) {
+    #blog h1 span {
+        font-size: 20vw;
+    }
 }
 </style>
