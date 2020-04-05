@@ -15,8 +15,11 @@
                         talent
                     </span>
                 </div>
-                <div class="scroll-dd">
-                    <div class="v_line_fix"></div>
+                <div class="arrowWrap">
+                    <div class="arrowInner">
+                    <p>SCROLL DOWN</p>
+                    <div class="arrow"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,7 +36,7 @@
                             そんな思いから結成したチーム。開発した物を見てもらえると光栄です。
                         </p>
                         <RouterLink class="nav" to="/product">
-                            <span class="menu sub_menu">visit</span>
+                            <span @click="scrollTop" class="menu sub_menu">visit</span>
                         </RouterLink>
                     </div>
                 </li>
@@ -54,7 +57,7 @@
                             よろしければ見ていってください。
                         </p>
                         <RouterLink class="nav" to="/blog">
-                            <span class="menu sub_menu">visit</span>
+                            <span @click="scrollTop" class="menu sub_menu">visit</span>
                         </RouterLink>
                     </div>
                 </li>
@@ -75,7 +78,7 @@
                             それをまとめています。
                         </p>
                         <RouterLink class="nav" to="/portfolio">
-                            <span class="menu sub_menu">visit</span>
+                            <span @click="scrollTop" class="menu sub_menu">visit</span>
                         </RouterLink>
                     </div>
                 </li>
@@ -94,7 +97,7 @@
                             私たちの紹介です。
                         </p>
                         <RouterLink class="nav" to="/about">
-                            <span class="menu sub_menu">visit</span>
+                            <span @click="scrollTop" class="menu sub_menu">visit</span>
                         </RouterLink>
                     </div>
                 </li>
@@ -118,12 +121,68 @@
     font-size: 62.5%;
 }
 
+/* スクロールダウン */
+.arrowWrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+}
+
+.arrowInner p {
+    color: #fff;
+    font-size: 12px;
+    text-align: end;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.arrow {
+    width: 1px;
+    height: 100px;
+    margin: 50px auto 0;
+    background-color: rgb(7, 7, 7);
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow::before {
+    content: '';
+    width: 1px;
+    height: 100px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    -webkit-animation: arrow 2.5s ease 0s infinite normal;
+    animation: arrow 2.5s ease 0s infinite normal;
+}
+
+@keyframes arrow {
+    0% {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+    }
+
+    60% {
+        -webkit-transform: translate3d(-50%, 100px, 0);
+        transform: translate3d(-50%, 100px, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(-50%, 100px, 0);
+        transform: translate3d(-50%, 100px, 0);
+    }
+}
+
 /* HOME */
 .home {
     width: 100%;
     height: 70vh;
     padding-top: 150px;
     z-index: 10;
+    position: relative;
 }
 .home .messages span {
     font-size: 5vw;
@@ -136,27 +195,6 @@
     margin: 0% 10% 60%;
     margin-top: 40%;
 }
-.v_line_fix {
-    width: 1.3px;
-    background-color: rgb(251, 251, 249);
-    margin-top: 8%;
-    margin-left: 90%;
-    animation: loop 2s ease-in-out 0s infinite normal;
-}
-.v_line_fix p{
-    color: #fff;
-    padding:1px;
-}
-
-@keyframes loop {
-    0% {
-        height: 1px;
-    }
-    100% {
-        height: 150px;
-    }
-}
-
 
 /* common */
 .common {
@@ -290,7 +328,14 @@
 
 <script>
 export default {
-
+    methods: {
+        scrollTop: function(){
+            window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+            });
+        }
+    }
 }
 </script>
 
