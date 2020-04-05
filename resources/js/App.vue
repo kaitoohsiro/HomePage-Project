@@ -78,9 +78,6 @@
 
 
 <style>
-#title h1 {
-    margin-top: 100px;
-}
 #title h1 span{
     font-size: 137px;
     font-family: 'Monteserrat', sans-serif;
