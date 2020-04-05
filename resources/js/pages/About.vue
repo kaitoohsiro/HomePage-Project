@@ -232,10 +232,10 @@
                               <td>1998</td>
                             </tr>
                             <tr>
-                              <td></td>
+                              <td>暇つぶし</td>
                             </tr>
                             <tr>
-                              <td></td>
+                              <td>井戸育ち</td>
                             </tr>
                           </table>
                       </div>
