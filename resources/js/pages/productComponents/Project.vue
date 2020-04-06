@@ -32,12 +32,8 @@ export default{
 </script>
 
 <style>
-ul {
-	list-style: none;
-}
-
 .project-icon {
-	width: 60%;
+	width: 50%;
 	overflow:	hidden;
 	position:	relative;	/* 相対位置指定 */
 	margin: auto;
@@ -67,7 +63,7 @@ ul {
 }
 
 .project-name {
-	font-size: 5vw;
+	font-size: 4.5vw;
 	text-align: center;
 }
 
