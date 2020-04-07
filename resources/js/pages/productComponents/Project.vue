@@ -31,7 +31,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 .project-icon {
 	width: 50%;
 	overflow:	hidden;
@@ -72,4 +72,8 @@ export default{
 	white-space: nowrap;
 }
 
+div.project-icon > img {
+    max-width: 100%;
+    height: auto;
+}
 </style>

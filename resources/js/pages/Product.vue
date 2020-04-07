@@ -11,7 +11,7 @@
                 <span>t</span>
             </h1>
         </div>
-        <Project class="triangle01" />
+        <Project class="product-triangle" />
     </div>
 </template>
 
@@ -37,19 +37,14 @@ div#product > div#title > h1{
 	white-space: nowrap;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.triangle01 {
+.product-triangle {
     display: table;
     width: 100%;
     background-color: #97c7f3af;
     transform: skewY(-5deg);
     margin-top: 4vw;
 }
-.triangle01 > * {
+.product-triangle > * {
     transform: skewY(5deg);
 }
 </style>
