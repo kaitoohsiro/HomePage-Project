@@ -51,7 +51,7 @@
                         <p class="card_title text--medium">
                             Coming soon
                             <div class="card_info">
-                                <!-- <p class="text--medium"></p> -->
+                                <p class="text--medium">by Matsuzaka</p>
                                 <!-- <a href="" class="card__price text--medium">GO</a> -->
                             </div>
                         </p>
@@ -65,7 +65,7 @@
                         <p class="card_title text--medium">
                             Coming soon
                             <div class="card_info">
-                                <!-- <p class="text--medium"></p> -->
+                                <p class="text--medium">by Nabika</p>
                                 <!-- <a href="" class="card__price text--medium">GO</a> -->
                             </div>
                         </p>
@@ -79,7 +79,7 @@
                         <p class="card_title text--medium">
                             Coming soon
                             <div class="card_info">
-                                <!-- <p class="text--medium"></p> -->
+                                <p class="text--medium">by Satsu</p>
                                 <!-- <a href="" class="card__price text--medium">GO</a> -->
                             </div>
                         </p>
@@ -104,6 +104,11 @@
 }
 #title {
     color: #ecf0f1;
+}
+@media only screen and (max-width:812px){
+    #title h1 span {
+        font-size: 3rem;
+    }
 }
 main {
     display: grid;
