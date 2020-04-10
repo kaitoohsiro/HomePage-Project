@@ -2,15 +2,7 @@
     <div id="portfolio">
         <div id="title">
             <h1>
-                <span>P</span>
-                <span>o</span>
-                <span>r</span>
-                <span>t</span>
-                <span>f</span>
-                <span>o</span>
-                <span>l</span>
-                <span>i</span>
-                <span>o</span>
+                <span>portfolio</span>
             </h1>
         </div>
         <main>
@@ -95,7 +87,9 @@
     width: 100vw;
     min-height: 100vh;
     background-color: black;
-    background: url("../../images/portfolio.jpg");
+    background: url("../../images/portfolio.png");
+    background-repeat: no-repeat;
+    background-size:cover;
     background-attachment: fixed;
 }
 .body {
